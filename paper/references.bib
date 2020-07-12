@@ -1,0 +1,778 @@
+@Comment
+@Comment Theory papers
+@Comment
+                  
+@Article{kruskal,
+  author =	 {Joseph Kruskal},
+  title =	 {On the Shortest Spanning Subtree of a Graph and the Traveling Salesman Problem},
+  year =	 {1956},
+  journal =	 {Proceedings of the American Mathematical Society},
+  volume =       {7},
+  number =       {1},
+  pages =        {48--50}
+}                  
+                  
+@Article{hierholzer,
+  author =	 {Carl Hierholzer and Chr Wiener},
+  title =	 {Ueber die Möglichkeit, einen Linienzug ohne Wiederholung und ohne Unterbrechung zu umfahren},
+  year =	 {1873},
+  journal =	 {Mathematische Annalen},
+  volume =       {6},
+  number =       {1},
+  pages =        {30--32}
+}                  
+                  
+@article{edmonds-matching,
+         title={Paths, Trees, and Flowers},
+         volume={17},
+         journal={Canadian Journal of Mathematics},
+         publisher={Cambridge University Press},
+         author={Edmonds, Jack},
+         year={1965},
+         pages={449--467}
+}
+
+@TechReport{christofides,
+  author = {Nicos Christofides},
+  title  = {Worst-case analysis of a new heuristic for the traveling salesman problem},
+  year   = {1976},
+  number = {388},
+  institution = {Graduate School of Industrial Administration, Carnegie Mellon University}
+}
+
+@Article{mackworth77,
+  author =	 {Alan Mackworth},
+  title =	 {Consistency in Networks of Relations},
+  year =	 {1977},
+  journal =	 {Artificial Intelligence},
+  volume =       {8},
+  number =       {1},
+  pages =        {99--118}
+}                  
+
+@Inbook{Karp1972,
+author="Karp, Richard M.",
+title="Reducibility among Combinatorial Problems",
+bookTitle="Complexity of Computer Computations: Proceedings of a symposium on the Complexity of Computer Computations, held March 20--22, 1972, at the IBM Thomas J. Watson Research Center, Yorktown Heights, New York, and sponsored by the Office of Naval Research, Mathematics Program, IBM World Trade Corporation, and the IBM Research Mathematical Sciences Department",
+year="1972",
+publisher="Springer US",
+address="Boston, MA",
+pages="85--103",
+abstract="A large class of computational problems involve the determination of properties of graphs, digraphs, integers, arrays of integers, finite families of finite sets, boolean formulas and elements of other countable domains. Through simple encodings from such domains into the set of words over a finite alphabet these problems can be converted into language recognition problems, and we can inquire into their computational complexity. It is reasonable to consider such a problem satisfactorily solved when an algorithm for its solution is found which terminates within a number of steps bounded by a polynomial in the length of the input. We show that a large number of classic unsolved problems of covering, matching, packing, routing, assignment and sequencing are equivalent, in the sense that either each of them possesses a polynomial-bounded algorithm or none of them does.",
+isbn="978-1-4684-2001-2",
+doi="10.1007/978-1-4684-2001-2\_9",
+}
+
+@article{wan1823,
+  added-at = {2014-10-30T14:53:09.000+0100},
+  author = {von Warnsdorff, H. C.},
+  biburl = {https://www.bibsonomy.org/bibtex/253bc3d5b5ee9e509d076e75f204da23c/jimbotonic},
+  editor = {Schmalkalden},
+  interhash = {da48b3473ff0e8ab63d41666a1094d01},
+  intrahash = {53bc3d5b5ee9e509d076e75f204da23c},
+  journal = {Th. G. Fr. Varnhagensehen Buchhandlung},
+  keywords = {knight},
+  timestamp = {2014-10-30T14:53:09.000+0100},
+  title = {Des Rösselsprungs einfachste und allgemeinste Lösung},
+  year = 1823
+}
+
+
+@article{tsplib,
+  added-at = {2019-06-02T00:00:00.000+0200},
+  author = {Reinelt, Gerhard},
+  biburl = {https://www.bibsonomy.org/bibtex/2ea3eb2cc46126f203edb2f0fb8e51134/dblp},
+  ee = {https://www.wikidata.org/entity/Q59760363},
+  interhash = {4a7184e47de2d038a123ab28e952c4b9},
+  intrahash = {ea3eb2cc46126f203edb2f0fb8e51134},
+  journal = {INFORMS Journal on Computing},
+  keywords = {dblp},
+  number = 4,
+  pages = {376-384},
+  timestamp = {2019-06-04T11:44:47.000+0200},
+  title = {TSPLIB - A Traveling Salesman Problem Library.},
+  url = {http://dblp.uni-trier.de/db/journals/informs/informs3.html#Reinelt91},
+  volume = 3,
+  year = 1991
+}
+
+
+
+@inproceedings{STR,
+author = {Leutenegger, Scott and Lopez, Mario and Edgington, Jeffrey},
+year = {1997},
+month = {05},
+pages = {497-506},
+title = {{STR}: A Simple and Efficient Algorithm for R-Tree Packing},
+isbn = {0-8186-7807-0},
+journal = {Proc. VLDB Conf},
+doi = {10.1109/ICDE.1997.582015}
+}
+
+@Comment
+@Comment Constraint programming articles
+@Comment
+
+@InProceedings{Reischuk09,
+author="Reischuk, Raphael M.
+and Schulte, Christian
+and Stuckey, Peter J.
+and Tack, Guido",
+editor="Gent, Ian P.",
+title="Maintaining State in Propagation Solvers",
+booktitle="Principles and Practice of Constraint Programming - CP 2009",
+year="2009",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="692--706",
+abstract="Constraint propagation solvers interleave propagation, removing impossible values from variable domains, with search. The solver state is modified during propagation. But search requires the solver to return to a previous state. Hence a propagation solver must determine how to maintain state during propagation and forward and backward search. This paper sets out the possible ways in which a propagation solver can choose to maintain state, and the restrictions that such choices place on the resulting system. Experiments illustrate the result of various choices for the three principle state components of a solver: variables, propagators, and dependencies between them. This paper also provides the first realistic comparison of trailing versus copying for state restoration.",
+isbn="978-3-642-04244-7"
+}
+
+@article{Beldiceanu94,
+title = "Introducing global constraints in CHIP",
+journal = "Mathematical and Computer Modelling",
+volume = "20",
+number = "12",
+pages = "97 - 123",
+year = "1994",
+issn = "0895-7177",
+doi = "https://doi.org/10.1016/0895-7177(94)90127-9",
+url = "http://www.sciencedirect.com/science/article/pii/0895717794901279",
+author = "N Beldiceanu and E Contejean",
+keywords = "Constraint programming, Multi-dimensional placement, Scheduling, Vehicle routing",
+abstract = "The purpose of this paper is to show how the introduction of new primitive constraints (e.g., among, diffn, cycle) over finite domains in the constraint logic programming system CHIP result in finding very rapidly good solutions for a large class of difficult sequencing, scheduling, geometrical placement and vehicle routing problems. The among constraint allows us to specify sequencing constraints in a very concise way. For the first time, the diffn constraint allows us to express and to solve directly multi-dimensional placement problems, where one has to consider nonoverlapping constraints between n-dimensional objects (e.g., rectangles, parallelepipeds). The cycle constraint makes it possible to specify a wide range of graph partitioning problems that could not yet be expressed by using current constraint logic programming languages. One of the main advantages of all these new primitives is to take into account more globally a set of elementary constraints. Finally, we point out that all the previous primitive constraints enhance the power of the CHIP system significantly, allowing us to solve real life problems that were not within reach of constraint technology before."
+}
+
+
+@inproceedings{Gomes04,
+  author    = {Carla P. Gomes and
+               Meinolf Sellmann},
+  editor    = {Mark Wallace},
+  title     = {Streamlined Constraint Reasoning},
+  booktitle = {Principles and Practice of Constraint Programming - {CP} 2004, 10th
+               International Conference, {CP} 2004, Toronto, Canada, September 27
+               - October 1, 2004, Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {3258},
+  pages     = {274--289},
+  publisher = {Springer},
+  year      = {2004},
+  url       = {https://doi.org/10.1007/978-3-540-30201-8\_22},
+  doi       = {10.1007/978-3-540-30201-8\_22},
+  timestamp = {Fri, 27 Mar 2020 09:00:36 +0100},
+  biburl    = {https://dblp.org/rec/conf/cp/GomesS04.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{Wetter15,
+  author    = {James Wetter and
+               {\"{O}}zg{\"{u}}r Akg{\"{u}}n and
+               Ian Miguel},
+  editor    = {Gilles Pesant},
+  title     = {Automatically Generating Streamlined Constraint Models with Essence
+               and Conjure},
+  booktitle = {Principles and Practice of Constraint Programming - 21st International
+               Conference, {CP} 2015, Cork, Ireland, August 31 - September 4, 2015,
+               Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {9255},
+  pages     = {480--496},
+  publisher = {Springer},
+  year      = {2015},
+  url       = {https://doi.org/10.1007/978-3-319-23219-5\_34},
+  doi       = {10.1007/978-3-319-23219-5\_34},
+  timestamp = {Fri, 27 Mar 2020 09:00:36 +0100},
+  biburl    = {https://dblp.org/rec/conf/cp/WetterAM15.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{Spracklen19,
+  author    = {Patrick Spracklen and
+               Nguyen Dang and
+               {\"{O}}zg{\"{u}}r Akg{\"{u}}n and
+               Ian Miguel},
+  editor    = {Thomas Schiex and
+               Simon de Givry},
+  title     = {Automatic Streamlining for Constrained Optimisation},
+  booktitle = {Principles and Practice of Constraint Programming - 25th International
+               Conference, {CP} 2019, Stamford, CT, USA, September 30 - October 4,
+               2019, Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {11802},
+  pages     = {366--383},
+  publisher = {Springer},
+  year      = {2019},
+  url       = {https://doi.org/10.1007/978-3-030-30048-7\_22},
+  doi       = {10.1007/978-3-030-30048-7\_22},
+  timestamp = {Fri, 27 Mar 2020 09:00:37 +0100},
+  biburl    = {https://dblp.org/rec/conf/cp/SpracklenDAM19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Lauriere78,
+title = "A language and a program for stating and solving combinatorial problems",
+journal = "Artificial Intelligence",
+volume = "10",
+number = "1",
+pages = "29 - 127",
+year = "1978",
+issn = "0004-3702",
+doi = "https://doi.org/10.1016/0004-3702(78)90029-2",
+url = "http://www.sciencedirect.com/science/article/pii/0004370278900292",
+author = "Jena-Lonis Lauriere"
+}
+
+@article{LDSB,
+  author    = {Christopher Mears and
+               Maria Garcia de la Banda and
+               Bart Demoen and
+               Mark Wallace},
+  title     = {Lightweight dynamic symmetry breaking},
+  journal   = {Constraints},
+  volume    = {19},
+  number    = {3},
+  pages     = {195--242},
+  year      = {2014},
+  url       = {https://doi.org/10.1007/s10601-013-9154-2},
+  doi       = {10.1007/s10601-013-9154-2},
+  timestamp = {Tue, 19 Dec 2017 00:44:46 +0100},
+  biburl    = {https://dblp.org/rec/bib/journals/constraints/MearsBDW14},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+                  
+@inproceedings{matrixsymmetry,
+  author    = {Pierre Flener and
+               Alan M. Frisch and
+               Brahim Hnich and
+               Zeynep Kiziltan and
+               Ian Miguel and
+               Justin Pearson and
+               Toby Walsh},
+  title     = {Breaking Row and Column Symmetries in Matrix Models},
+  booktitle = {Principles and Practice of Constraint Programming - {CP} 2002, 8th
+               International Conference, {CP} 2002, Ithaca, NY, USA, September 9-13,
+               2002, Proceedings},
+  pages     = {462--476},
+  year      = {2002},
+  doi       = {10.1007/3-540-46135-3\_31}
+}
+
+@inproceedings{lcg,
+   author = {Olga Ohrimenko and Peter  Stuckey and Michael Codish},
+   title = {Propagation = Lazy Clause Generation},
+   booktitle = {Proceedings of the 13th International Conference on
+          Principles and Practice of Constraint Programming,},
+   editor = {C. Bessiere},
+   series = {LNCS},
+   volume = {4741},
+   year = {2007},
+   pages = {544-558}
+}
+
+@InProceedings{lns,
+   Author =    "Paul Shaw",
+   Title =     "Using Constraint Programming and Local Search Methods to Solve Vehicle Routing Problems",
+   Editor =    "Michael Maher and Jean-Francois Puget",
+   Booktitle = "Fourth International Conference on Principles and Practice of Constraint Programming",
+   Year =      1998,
+   Address =   "Pisa, Italy",
+   Publisher = "Springer-Verlag",
+   Series =    "Lecture Notes in Computer Science",
+   Volume =    "1520",
+   Pages =     "417--431",
+}
+
+@inproceedings{failure-directed-search,
+  author = {Petr Vil\'{\i}m and Philippe Laborie and Paul Shaw},
+  title = {Failure-directed Search for Constraint-based Scheduling},
+  booktitle = {CPAIOR '15: Proceedings of the 12th International Conference on Integration of AI and OR Techniques in Constraint Programming for Combinatorial Optimization Problems},
+  year = {2015},
+  location = {Barcelon, Spain},
+  publisher = {Springer-Verlag}
+}
+
+@InProceedings{Fontaine16,
+author="Fontaine, Daniel
+and Michel, Laurent
+and Van Hentenryck, Pascal",
+editor="Quimper, Claude-Guy",
+title="Parallel Composition of Scheduling Solvers",
+booktitle="Integration of AI and OR Techniques in Constraint Programming",
+year="2016",
+publisher="Springer International Publishing",
+address="Cham",
+pages="159--169",
+abstract="Recent work in model combinators, as well as projects like G12 and SIMPL, achieved significant progress in automating the generation of complex and hybrid solvers from high-level model specifications. This paper extends model combinators into the scheduling domain. This is of particular interest as, today, both Constraint Programming (CP) and Mixed-Integer Programming (MIP) perform well on scheduling problems providing different capabilities and trade-offs. The ability to construct hybrid scheduling solvers to leverage the strengths of both technologies as well as multiple problem encodings through high-level model combinators provides new opportunities. Complex parallel hybrids can be synthesized with minimal effort on the part of the user and provide substantial performance benefits over standalone solvers.",
+isbn="978-3-319-33954-2"
+}
+
+@InProceedings{SchulteTack:CP:2009,
+   Author =    "Christian Schulte and Guido Tack",
+   Title =     "Weakly Monotonic Propagators",
+   Editor =    "Ian Gent",
+   Booktitle = "Fifteenth International Conference on Principles and Practice of Constraint Programming",
+   Year =      2009,
+   Month =     sep,
+   Address =   "Lisbon, Portugal",
+   Publisher = "Springer-Verlag",
+   Series =    "Lecture Notes in Computer Science",
+   Volume =    "5732",
+   Pages =     "723--730",
+   DOI =       "10.1007/978-3-642-04244-7\_56",
+   URL =       "https://chschulte.github.io/papers/schultetack-cp-2009.html"
+}
+
+@InProceedings{SellmannHarvey02,
+   Author =    "Meinolf Sellmann and Warwick Harvey",
+   Title =     "Heuristic Constraint Propagation",
+   Editor =    "Pascal Van Hentenryck",
+   Booktitle = "Eighth International Conference on Principles and Practice of Constraint Programming",
+   Year =      2002,
+   Month =     sep,
+   Address =   "Ithaca, NY, USA",
+   Publisher = "Springer-Verlag",
+   Series =    "Lecture Notes in Computer Science",
+   Volume =    "2470",
+   Pages =     "738--743",
+   DOI =       "https://doi.org/10.1007/3-540-46135-3\_55"
+}
+
+@InProceedings{GroheWedelin08,
+author="Grohe, Birgit
+and Wedelin, Dag",
+editor="Perron, Laurent
+and Trick, Michael A.",
+title="Cost Propagation -- Numerical Propagation for Optimization Problems",
+booktitle="Integration of AI and OR Techniques in Constraint Programming for Combinatorial Optimization Problems",
+year="2008",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="97--111",
+abstract="We investigate cost propagation for solving combinatorial optimization problems with finite domain variables, expressed as an additive component model. Cost propagation combines ideas from both constraint programming and integer programming into a single approach, where problems are iteratively solved by numerical propagation, with updates for single constraint terms in the component model.",
+isbn="978-3-540-68155-7"
+}
+
+
+@article{Pesant19,
+  author    = {Gilles Pesant},
+  title     = {From Support Propagation to Belief Propagation in Constraint Programming},
+  journal   = {J. Artif. Intell. Res.},
+  volume    = {66},
+  pages     = {123--150},
+  year      = {2019},
+  url       = {https://doi.org/10.1613/jair.1.11487},
+  doi       = {10.1613/jair.1.11487},
+  timestamp = {Mon, 23 Sep 2019 16:12:21 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/jair/Pesant19},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@Article{HeldKarp71,
+author="Held, Michael
+and Karp, Richard M.",
+title="The traveling-salesman problem and minimum spanning trees: Part II",
+journal="Mathematical Programming",
+year="1971",
+month="Dec",
+day="01",
+volume="1",
+number="1",
+pages="6--25",
+abstract="The relationship between the symmetric traveling-salesman problem and the minimum spanning tree problem yields a sharp lower bound on the cost of an optimum tour. An efficient iterative method for approximating this bound closely from below is presented. A branch-and-bound procedure based upon these considerations has easily produced proven optimum solutions to all traveling-salesman problems presented to it, ranging in size up to sixty-four cities. The bounds used are so sharp that the search trees are minuscule compared to those normally encountered in combinatorial problems of this type.",
+issn="1436-4646",
+doi="10.1007/BF01584070",
+url="https://doi.org/10.1007/BF01584070"
+}
+
+
+
+
+@inproceedings{Isoart19,
+  author    = {Nicolas Isoart and
+               Jean{-}Charles R{\'{e}}gin},
+  title     = {Integration of Structural Constraints into {TSP} Models},
+  booktitle = {Principles and Practice of Constraint Programming - 25th International
+               Conference, {CP} 2019, Stamford, CT, USA, September 30 - October 4,
+               2019, Proceedings},
+  pages     = {284--299},
+  year      = {2019},
+  crossref  = {DBLP:conf/cp/2019},
+  url       = {https://doi.org/10.1007/978-3-030-30048-7\_17},
+  doi       = {10.1007/978-3-030-30048-7\_17},
+  timestamp = {Mon, 23 Sep 2019 13:59:34 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/cp/IsoartR19},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+                  
+@Article{Fages16,
+author="Fages, Jean-Guillaume
+and Lorca, Xavier
+and Rousseau, Louis-Martin",
+title="The salesman and the tree: the importance of search in CP",
+journal="Constraints",
+year="2016",
+month="Apr",
+day="01",
+volume="21",
+number="2",
+pages="145--162",
+abstract="The traveling salesman problem (TSP) is a challenging optimization problem for CP and OR that has many industrial applications. Its generalization to the degree constrained minimum spanning tree problem (DCMSTP) is being intensively studied by the OR community. In particular, classical solution techniques for the TSP are being progressively generalized to the DCMSTP. Recent work on cost-based relaxations has improved CP models for the TSP. However, CP search strategies have not yet been widely investigated for these problems. The contributions of this paper are twofold. We first introduce a natural generalization of the weighted cycle constraint (WCC) to the DCMSTP. We then provide an extensive empirical evaluation of various search strategies. In particular, we show that significant improvement can be achieved via our graph interpretation of the state-of-the-art Last Conflict heuristic.",
+issn="1572-9354",
+doi="10.1007/s10601-014-9178-2",
+url="https://doi.org/10.1007/s10601-014-9178-2"
+}
+
+@inproceedings{solvercheck,
+  author    = {Xavier Gillard and
+               Pierre Schaus and
+               Yves Deville},
+  title     = {SolverCheck: Declarative Testing of Constraints},
+  booktitle = {Principles and Practice of Constraint Programming - 25th International
+               Conference, {CP} 2019, Stamford, CT, USA, September 30 - October 4,
+               2019, Proceedings},
+  pages     = {565--582},
+  year      = {2019},
+  crossref  = {DBLP:conf/cp/2019},
+  url       = {https://doi.org/10.1007/978-3-030-30048-7\_33},
+  doi       = {10.1007/978-3-030-30048-7\_33},
+  timestamp = {Sat, 12 Oct 2019 12:51:45 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/cp/GillardSD19},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Benchimol12,
+  author    = {Pascal Benchimol and
+               Willem Jan van Hoeve and
+               Jean{-}Charles R{\'{e}}gin and
+               Louis{-}Martin Rousseau and
+               Michel Rueher},
+  title     = {Improved filtering for weighted circuit constraints},
+  journal   = {Constraints},
+  volume    = {17},
+  number    = {3},
+  pages     = {205--233},
+  year      = {2012},
+  url       = {https://doi.org/10.1007/s10601-012-9119-x},
+  doi       = {10.1007/s10601-012-9119-x},
+  timestamp = {Sat, 20 May 2017 00:25:22 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/constraints/BenchimolHRRR12},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@inproceedings{Archibald19,
+  author    = {Blair Archibald and
+               Fraser Dunlop and
+               Ruth Hoffmann and
+               Ciaran McCreesh and
+               Patrick Prosser and
+               James Trimble},
+  title     = {Sequential and Parallel Solution-Biased Search for Subgraph Algorithms},
+  booktitle = {Integration of Constraint Programming, Artificial Intelligence, and
+               Operations Research - 16th International Conference, {CPAIOR} 2019,
+               Thessaloniki, Greece, June 4-7, 2019, Proceedings},
+  pages     = {20--38},
+  year      = {2019},
+  crossref  = {DBLP:conf/cpaior/2019},
+  url       = {https://doi.org/10.1007/978-3-030-19212-9\_2},
+  doi       = {10.1007/978-3-030-19212-9\_2},
+  timestamp = {Fri, 31 May 2019 09:51:43 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/cpaior/ArchibaldDHMP019},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{Katsirelos05,
+  author    = {George Katsirelos and
+               Fahiem Bacchus},
+  title     = {Generalized NoGoods in CSPs},
+  booktitle = {Proceedings, The Twentieth National Conference on Artificial Intelligence
+               and the Seventeenth Innovative Applications of Artificial Intelligence
+               Conference, July 9-13, 2005, Pittsburgh, Pennsylvania, {USA}},
+  pages     = {390--396},
+  year      = {2005},
+  crossref  = {DBLP:conf/aaai/2005},
+  url       = {http://www.aaai.org/Library/AAAI/2005/aaai05-062.php},
+  timestamp = {Mon, 10 Dec 2012 15:34:43 +0100},
+  biburl    = {https://dblp.org/rec/bib/conf/aaai/KatsirelosB05},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@InProceedings{Lee16,
+   Author =    "Jimmy Ho Man Lee and Christian Schulte and Zichen Zhu",
+   Title =     "Increasing Nogoods in Restart-Based Search",
+   Editor =    "Dale Schuurmans and Michael Wellman",
+   Booktitle = "AAAI Conference on Artificial Intelligence",
+   Year =      2016,
+   Month =     feb,
+   Address =   "Phoenix, AZ, USA",
+   Publisher = "AAAI Press",
+   Pages =     "3426--3433",
+   URL =       "https://chschulte.github.io/papers/leeschulteea-aaai-2016.html"
+}
+
+@InProceedings{ozgur18,
+author="Akg{\"u}n, {\"O}zg{\"u}r
+and Gent, Ian P.
+and Jefferson, Christopher
+and Miguel, Ian
+and Nightingale, Peter",
+editor="Hooker, John",
+title="Metamorphic Testing of Constraint Solvers",
+booktitle="Principles and Practice of Constraint Programming",
+year="2018",
+publisher="Springer International Publishing",
+address="Cham",
+pages="727--736",
+abstract="Constraint solvers are complex pieces of software and are notoriously difficult to debug. In large part this is due to the difficulty of pinpointing the source of an error in the vast searches these solvers perform, since the effect of an error may only come to light long after the error is made. In addition, an error does not necessarily lead to the wrong result, further complicating the debugging process. A major source of errors in a constraint solver is the complex constraint propagation algorithms that provide the inference that controls and directs the search. In this paper we show that metamorphic testing is a principled way to test constraint solvers by comparing two different implementations of the same constraint. Specifically, specialised propagators for the constraint are tested against the general purpose table constraint propagator. We report on metamorphic testing of the constraint solver Minion. We demonstrate that the metamorphic testing method is very effective for finding artificial bugs introduced by random code mutation.",
+isbn="978-3-319-98334-9"
+}
+
+@Article{Francis14,
+author="Francis, Kathryn Glenn
+and Stuckey, Peter J.",
+title="Explaining circuit propagation",
+journal="Constraints",
+year="2014",
+month="Jan",
+day="01",
+volume="19",
+number="1",
+pages="1--29",
+abstract="The circuit constraint is used to constrain a graph represented by a successor for each node, such that the resulting edges form a circuit. Circuit and its variants are important for various kinds of tour-finding, path-finding and graph problems. In this paper we examine how to integrate the circuit constraint, and its variants, into a lazy clause generation solver. To do so we must extend the constraint to explain its propagation. We consider various propagation algorithms for circuit and examine how best to explain each of them. We compare the effectiveness of each propagation algorithm once we use explanation, since adding explanation changes the trade-off between propagation complexity and power. Simpler propagators, although less powerful, may produce more reusable explanations. Even though the most powerful propagator considered for circuit and variants creates huge explanations, we find that explanation is highly advantageous for solving problems involving this kind of constraint.",
+issn="1572-9354",
+doi="10.1007/s10601-013-9148-0",
+url="https://doi.org/10.1007/s10601-013-9148-0"
+}
+
+
+@Comment 
+@Comment Proceedings definitions
+@Comment 
+
+@proceedings{DBLP:conf/aaai/2005,
+  editor    = {Manuela M. Veloso and
+               Subbarao Kambhampati},
+  title     = {Proceedings, The Twentieth National Conference on Artificial Intelligence
+               and the Seventeenth Innovative Applications of Artificial Intelligence
+               Conference, July 9-13, 2005, Pittsburgh, Pennsylvania, {USA}},
+  publisher = {{AAAI} Press / The {MIT} Press},
+  year      = {2005},
+  isbn      = {1-57735-236-X},
+  timestamp = {Mon, 26 Feb 2007 09:10:53 +0100},
+  biburl    = {https://dblp.org/rec/bib/conf/aaai/2005},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/cpaior/2019,
+  editor    = {Louis{-}Martin Rousseau and
+               Kostas Stergiou},
+  title     = {Integration of Constraint Programming, Artificial Intelligence, and
+               Operations Research - 16th International Conference, {CPAIOR} 2019,
+               Thessaloniki, Greece, June 4-7, 2019, Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {11494},
+  publisher = {Springer},
+  year      = {2019},
+  url       = {https://doi.org/10.1007/978-3-030-19212-9},
+  doi       = {10.1007/978-3-030-19212-9},
+  isbn      = {978-3-030-19211-2},
+  timestamp = {Tue, 28 May 2019 13:07:45 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/cpaior/2019},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/cp/2019,
+  editor    = {Thomas Schiex and
+               Simon de Givry},
+  title     = {Principles and Practice of Constraint Programming - 25th International
+               Conference, {CP} 2019, Stamford, CT, USA, September 30 - October 4,
+               2019, Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {11802},
+  publisher = {Springer},
+  year      = {2019},
+  url       = {https://doi.org/10.1007/978-3-030-30048-7},
+  doi       = {10.1007/978-3-030-30048-7},
+  isbn      = {978-3-030-30047-0},
+  timestamp = {Mon, 23 Sep 2019 13:55:24 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/cp/2019},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@PROCEEDINGS{DBLP:conf/cp/2004,
+  title = {Principles and Practice of Constraint Programming - CP 2004, 10th
+	International Conference, CP 2004, Toronto, Canada, September 27
+	- October 1, 2004, Proceedings},
+  year = {2004},
+  editor = {Mark Wallace},
+  volume = {3258},
+  series = {Lecture Notes in Computer Science},
+  publisher = {Springer},
+  bibsource = {DBLP, http://dblp.uni-trier.de},
+  booktitle = {CP},
+  isbn = {3-540-23241-9},
+  timestamp = {2005.11.23},
+}
+
+@proceedings{DBLP:conf/cp/2008,
+  editor    = {Peter J. Stuckey},
+  title     = {Principles and Practice of Constraint Programming, 14th International
+               Conference, {CP} 2008, Sydney, Australia, September 14-18, 2008. Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {5202},
+  publisher = {Springer},
+  year      = {2008},
+  url       = {https://doi.org/10.1007/978-3-540-85958-1},
+  doi       = {10.1007/978-3-540-85958-1},
+  isbn      = {978-3-540-85957-4},
+  timestamp = {Tue, 13 Jun 2017 10:37:56 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/cp/2008},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/plilp/1996,
+  editor    = {Herbert Kuchen and
+               S. Doaitse Swierstra},
+  title     = {Programming Languages: Implementations, Logics, and Programs,
+               8th International Symposium, PLILP'96, Aachen, Germany,
+               September 24-27, 1996, Proceedings},
+  booktitle = {PLILP},
+  publisher = {Springer},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {1140},
+  year      = {1996},
+  isbn      = {3-540-61756-6},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@proceedings{DBLP:conf/cp/1998,
+  editor    = {Michael J. Maher and
+               Jean-Francois Puget},
+  title     = {Principles and Practice of Constraint Programming - CP98,
+               4th International Conference, Pisa, Italy, October 26-30,
+               1998, Proceedings},
+  booktitle = {CP},
+  publisher = {Springer},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {1520},
+  year      = {1998},
+  isbn      = {3-540-65224-8},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@proceedings{DBLP:conf/ijcai/2003,
+  editor    = {Georg Gottlob and
+               Toby Walsh},
+  title     = {IJCAI-03, Proceedings of the Eighteenth International Joint
+               Conference on Artificial Intelligence, Acapulco, Mexico,
+               August 9-15, 2003},
+  booktitle = {IJCAI},
+  publisher = {Morgan Kaufmann},
+  year      = {2003},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@proceedings{DBLP:conf/ecai/2004,
+  editor    = {Ramon L{\'o}pez de M{\'a}ntaras and
+               Lorenza Saitta},
+  title     = {Proceedings of the 16th Eureopean Conference on Artificial
+               Intelligence, ECAI'2004, including Prestigious Applicants
+               of Intelligent Systems, PAIS 2004, Valencia, Spain, August
+               22-27, 2004},
+  booktitle = {ECAI},
+  publisher = {IOS Press},
+  year      = {2004},
+  isbn      = {1-58603-452-9},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@proceedings{DBLP:conf/cpaior/2012,
+  editor    = {Nicolas Beldiceanu and
+               Narendra Jussien and
+               Eric Pinson},
+  title     = {Integration of AI and OR Techniques in Contraint Programming
+               for Combinatorial Optimzation Problems - 9th International
+               Conference, CPAIOR 2012, Nantes, France, May 28 - June1,
+               2012. Proceedings},
+  booktitle = {CPAIOR},
+  publisher = {Springer},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {7298},
+  year      = {2012},
+  isbn      = {978-3-642-29827-1},
+  ee        = {http://dx.doi.org/10.1007/978-3-642-29828-8},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@proceedings{DBLP:conf/cig/2018,
+  title     = {2018 {IEEE} Conference on Computational Intelligence and Games, {CIG}
+               2018, Maastricht, The Netherlands, August 14-17, 2018},
+  publisher = {{IEEE}},
+  year      = {2018},
+  url       = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8473398},
+  isbn      = {978-1-5386-4359-4},
+  timestamp = {Wed, 24 Oct 2018 19:46:29 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/cig/2018},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@Comment
+@Comment Solvers
+@Comment
+
+@misc{concorde,
+  author    = {William Cook},
+  title     = {Concorde {TSP} {S}olver},
+  note      = {\url{http://www.math.uwaterloo.ca/tsp/concorde.html}}
+}
+
+@InProceedings{sicstus,
+  author="Carlsson, Mats and Ottosson, Greger and Carlson, Bj{\"o}rn",
+  editor="Glaser, Hugh and Hartel, Pieter and Kuchen, Herbert",
+  title="An open-ended finite domain constraint solver",
+  booktitle="Programming Languages: Implementations, Logics, and Programs",
+  year="1997",
+  publisher="Springer Berlin Heidelberg",
+  address="Berlin, Heidelberg",
+  pages="191--206",
+  isbn="978-3-540-69537-0"
+}
+
+@manual{choco,
+  author        = {Charles Prud'homme and Jean-Guillaume Fages and Xavier Lorca},
+  title         = {Choco Documentation},
+  year          = {2017},
+  organization  = {TASC - LS2N CNRS UMR 6241, COSLING S.A.S.},
+  timestamp     = {Thu, 23 November 2017},
+  url           = {http://www.choco-solver.org },
+}
+
+@misc{cpoptimizer,
+  author    = {{IBM}},
+  title     = {{IBM ILOG CP Optimizer}},
+  note      = {\url{https://www.ibm.com/analytics/cplex-cp-optimizer}},
+  year      = 2019
+}
+
+@misc{ortools,
+  author    = {{Google}},
+  title     = {{OR-Tools}},
+  note      = {\url{https://developers.google.com/optimization}},
+  year      = 2019
+}
+
+@Comment 
+@Comment Gecode standard references
+@Comment 
+
+@misc{gecode,
+  author	= {{Gecode team}},
+  title		= {{G}ecode, the generic constraint development environment},
+  note		= {\url{http://www.gecode.org/}},
+  year		= 2018
+}
