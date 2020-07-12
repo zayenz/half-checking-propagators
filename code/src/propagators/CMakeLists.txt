@@ -1,0 +1,1 @@
+add_library(IPPropagatorsLib propagators.h no_dominated_edges.cpp no_warnsdorff_dominated_edges.cpp no_warnsdorff_dominated_edges2.cpp hk_1tree.cpp christofides.cpp)

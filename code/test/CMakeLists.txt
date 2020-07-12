@@ -1,0 +1,2 @@
+add_executable(ip_tests_run test_main.cpp geometry_tests.cpp graph_tests.cpp tsp_utilities_tests.cpp spatial_index_tests.cpp test_util.h)
+target_link_libraries(ip_tests_run IPExternLib IPUtilitiesLib IPModelsLib IPPropagatorsLib)

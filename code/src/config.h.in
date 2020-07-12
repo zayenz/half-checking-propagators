@@ -1,0 +1,4 @@
+// the configured options and settings for HC
+#define HC_VERSION_MAJOR @HC_VERSION_MAJOR@
+#define HC_VERSION_MINOR @HC_VERSION_MINOR@
+#define HC_VERSION_PATCH @HC_VERSION_PATCH@
